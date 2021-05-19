@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Modulos</title>
+	</head>
+	<body>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem
+		repellat,
+
+		<script type="module">
+			// import { miModulo, otra } from "./js/modulos.js";
+
+			// console.log(miModulo("Jose"));
+
+			// console.log(otra);
+
+			import * as funcionPropia from "./js/modulos.js";
+
+			console.log(funcionPropia.miModulo("jose"));
+		</script>
+	</body>
+</html>
